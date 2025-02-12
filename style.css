@@ -92,4 +92,50 @@ a {
     flex-wrap: wrap;
     padding: 48px;
     justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: rgb(0, 44, 139);
+    text-align: center;
+}
+
+.quote {
+    font-style: italic;
+    color: rgb(0, 44, 139);
+    text-align: center;
+    background-color: lightgrey;
+    padding: 16px;
+
+
+}
+
+.modalcontainer{
+    background: white;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+  }
+
+.modalobject{
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    padding: 32px;
+}
+
+.modalheader{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.modaltext {
+    font-size: 12px;
+    font-weight: 400;
 }
